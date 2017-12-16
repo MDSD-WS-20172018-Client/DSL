@@ -1,0 +1,128 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Frioui\\Desktop\\Neuer Ordner (2)\\testprojekt\\src-gen\\testprojekt.androidLollipop\\md2_app_testprojektApp\\app\\build\\intermediates\\res\\merged\\debug\\values-v21_values-v21.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Frioui\\.gradle\\caches\\transforms-1\\files-1.1\\md2Library-debug.aar\\0878f24e319ed2a9a92556f3dc63e8a4\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Frioui\\Desktop\\Neuer Ordner (2)\\testprojekt\\src-gen\\testprojekt.androidLollipop\\md2_app_testprojektApp\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Frioui\\Desktop\\Neuer Ordner (2)\\testprojekt\\src-gen\\testprojekt.androidLollipop\\md2_app_testprojektApp\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "120",
+                        "endLines": "3",
+                        "endColumns": "12",
+                        "endOffsets": "209"
+                    },
+                    "to": {
+                        "startLines": "13",
+                        "startColumns": "4",
+                        "startOffsets": "637",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "725"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Frioui\\Desktop\\Neuer Ordner (2)\\testprojekt\\src-gen\\testprojekt.androidLollipop\\md2_app_testprojektApp\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "120,179",
+                        "endColumns": "57,55",
+                        "endOffsets": "173,230"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,113",
+                        "endColumns": "57,55",
+                        "endOffsets": "108,164"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Frioui\\Desktop\\Neuer Ordner (2)\\testprojekt\\src-gen\\testprojekt.androidLollipop\\md2_app_testprojektApp\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "5,2,3",
+                        "startColumns": "1,1,1",
+                        "startOffsets": "221,118,166",
+                        "endColumns": "43,46,50",
+                        "endOffsets": "263,163,215"
+                    },
+                    "to": {
+                        "startLines": "8,9,12",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "380,427,591",
+                        "endColumns": "46,49,45",
+                        "endOffsets": "422,472,632"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Frioui\\Desktop\\Neuer Ordner (2)\\testprojekt\\src-gen\\testprojekt.androidLollipop\\md2_app_testprojektApp\\app\\src\\main\\res\\values\\views.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "159,232",
+                        "endColumns": "71,79",
+                        "endOffsets": "226,307"
+                    },
+                    "to": {
+                        "startLines": "7,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "308,477",
+                        "endColumns": "71,79",
+                        "endOffsets": "375,552"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Frioui\\Desktop\\Neuer Ordner (2)\\testprojekt\\src-gen\\testprojekt.androidLollipop\\md2_app_testprojektApp\\app\\src\\main\\res\\values\\ids.xml",
+                    "from": {
+                        "startLines": "4,5,3",
+                        "startColumns": "1,1,1",
+                        "startOffsets": "214,251,154",
+                        "endColumns": "35,38,54",
+                        "endOffsets": "248,288,207"
+                    },
+                    "to": {
+                        "startLines": "4,5,6",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "169,208,250",
+                        "endColumns": "38,41,57",
+                        "endOffsets": "203,245,303"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Frioui\\.gradle\\caches\\transforms-1\\files-1.1\\md2Library-debug.aar\\0878f24e319ed2a9a92556f3dc63e8a4\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "33",
+                        "endOffsets": "84"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "557",
+                        "endColumns": "33",
+                        "endOffsets": "586"
+                    }
+                }
+            ]
+        }
+    ]
+}

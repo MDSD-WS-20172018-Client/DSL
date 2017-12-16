@@ -1,0 +1,4 @@
+#Thu Nov 30 15:32:52 CET 2017
+base.0=C\:\\Users\\Frioui\\Desktop\\Neuer Ordner (2)\\testprojekt\\src-gen\\testprojekt.androidLollipop\\md2_app_testprojektApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\9
+path.0=classes.dex
+renamed.0=classes.dex

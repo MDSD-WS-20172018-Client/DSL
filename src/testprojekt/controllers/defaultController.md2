@@ -1,0 +1,36 @@
+package testprojekt.controllers
+
+/*
+ * Implement the controller here
+ */
+
+main {
+	appVersion "1.0"
+	modelVersion "1.0"
+	workflowManager WorkflowBackendConnection
+}
+
+remoteConnection WorkflowBackendConnection {
+	uri "http://localhost:8080/testprojekt.backend/service/"
+}
+
+WorkflowElement firstWFE {
+	defaultProcessChain firstProcessChain
+	
+	onInit {
+		init
+	}
+	
+	action CustomAction init {
+		
+	}
+	
+	action CustomAction firstAction {
+		call FireEvent (BasicEvent)
+	}
+	
+	processChain  firstProcessChain {
+		step firstStep:
+			view firstView
+	}
+}

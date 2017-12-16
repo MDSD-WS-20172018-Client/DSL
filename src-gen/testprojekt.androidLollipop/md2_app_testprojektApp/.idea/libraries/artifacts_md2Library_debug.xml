@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="artifacts:md2Library-debug">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/md2Library-debug.aar/0878f24e319ed2a9a92556f3dc63e8a4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/md2Library-debug.aar/0878f24e319ed2a9a92556f3dc63e8a4/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
