@@ -4,6 +4,16 @@ package testprojekt.views
  * Implement the view here
  */
 
-FlowLayoutPane firstView {
+FlowLayoutPane Login (vertical) {
+
+	TextInput UserName {
+		tooltip "User Name oder Email"
+	}
+	TextInput Passwort {
+		tooltip "Passwort "
+	}
+	Button beinloggen ("Einloggen")
+	Button bregistierung ("Konto erstellen")
 	
 }
+

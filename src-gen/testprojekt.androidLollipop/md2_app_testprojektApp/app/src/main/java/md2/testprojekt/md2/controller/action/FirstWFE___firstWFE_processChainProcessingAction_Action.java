@@ -53,5 +53,9 @@ public class FirstWFE___firstWFE_processChainProcessingAction_Action extends Abs
     	
 		if((Md2ContentProviderRegistry.getInstance().getContentProvider("__processChainControllerStateProvider").getValue("currentProcessChainStep").equals(new Md2String("firstProcessChain__firstStep")))){
 		}
+		else if ((Md2ContentProviderRegistry.getInstance().getContentProvider("__processChainControllerStateProvider").getValue("currentProcessChainStep").equals(new Md2String("SecondProcessChain__firstStep")))){
+		}				
+		else if ((Md2ContentProviderRegistry.getInstance().getContentProvider("__processChainControllerStateProvider").getValue("currentProcessChainStep").equals(new Md2String("ProcessChain__firstStep")))){
+		}				
 	}
 }

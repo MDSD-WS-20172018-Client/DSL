@@ -99,8 +99,8 @@ public class Controller extends AbstractMd2Controller {
     	    
     	Md2WorkflowEventRegistry.getInstance().addWorkflowEvent(
     	    "Md2FireEventActionBasicEvent",
-    	   new Md2WorkflowElement("FirstWFE",
-    	   	new md2.testprojekt.md2.controller.action.FirstWFE___firstWFE_startupAction_Action()),
+    	    new Md2WorkflowElement("FirstWFE", 
+    	    	new md2.testprojekt.md2.controller.action.FirstWFE___firstWFE_startupAction_Action()),
     	    Md2WorkflowAction.END);
     }
 

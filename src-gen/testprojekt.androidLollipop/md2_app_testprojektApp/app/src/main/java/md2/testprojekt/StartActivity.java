@@ -52,7 +52,7 @@ public class StartActivity extends Activity {
         
         // TODO move startableWorkflowElements to Md2WorkflowManager
 		Md2Button firstWFEButton = (Md2Button) findViewById(R.id.startActivity_firstWFEButton);
-		firstWFEButton.getOnClickHandler().registerAction(new md2.testprojekt.md2.controller.action.FirstWFE___firstWFE_startupAction_Action() );
+		firstWFEButton.getOnClickHandler().registerAction(new FirstWFE___firstWFE_startupAction_Action());
 		Md2TaskQueue.getInstance().tryExecutePendingTasks();
     }
     

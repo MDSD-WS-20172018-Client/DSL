@@ -13,24 +13,83 @@ public final class R {
     public static final int activity_vertical_margin=0x7f010001;
   }
   public static final class id {
-    public static final int firstView=0x7f020000;
-    public static final int spacer855426=0x7f020001;
-    public static final int startActivity_firstWFEButton=0x7f020002;
+    public static final int Login=0x7f020000;
+    public static final int Login___ContainerPasswort=0x7f020001;
+    public static final int Login___ContainerPasswort_Passwort=0x7f020002;
+    public static final int Login___ContainerPasswort___TooltipPasswort=0x7f020003;
+    public static final int Login___ContainerUserName=0x7f020004;
+    public static final int Login___ContainerUserName_UserName=0x7f020005;
+    public static final int Login___ContainerUserName___TooltipUserName=0x7f020006;
+    public static final int Login_beinloggen=0x7f020007;
+    public static final int Login_bregistierung=0x7f020008;
+    public static final int MainView=0x7f020009;
+    public static final int MainView_info=0x7f02000a;
+    public static final int Register=0x7f02000b;
+    public static final int Register___ContainerEmail=0x7f02000c;
+    public static final int Register___ContainerEmail_Email=0x7f02000d;
+    public static final int Register___ContainerEmail___TooltipEmail=0x7f02000e;
+    public static final int Register___ContainerPasswort=0x7f02000f;
+    public static final int Register___ContainerPasswort_Passwort=0x7f020010;
+    public static final int Register___ContainerPasswort___TooltipPasswort=0x7f020011;
+    public static final int Register___ContainerUserName=0x7f020012;
+    public static final int Register___ContainerUserName_UserName=0x7f020013;
+    public static final int Register___ContainerUserName___TooltipUserName=0x7f020014;
+    public static final int Register_bregistierung=0x7f020015;
+    public static final int startActivity_firstWFEButton=0x7f020016;
   }
   public static final class layout {
-    public static final int activity_firstview=0x7f030000;
-    public static final int activity_start=0x7f030001;
+    public static final int activity_login=0x7f030000;
+    public static final int activity_mainview=0x7f030001;
+    public static final int activity_register=0x7f030002;
+    public static final int activity_start=0x7f030003;
   }
   public static final class mipmap {
     public static final int ic_launcher=0x7f040000;
   }
   public static final class string {
-    public static final int StartActivity=0x7f050000;
-    public static final int _alias=0x7f050001;
-    public static final int app_name=0x7f050002;
-    public static final int firstViewActivity=0x7f050003;
-    public static final int ok=0x7f050004;
-    public static final int title_activity_firstView=0x7f050005;
+    public static final int LoginActivity=0x7f050000;
+    public static final int Login___ContainerPasswort_Passwort_label=0x7f050001;
+    public static final int Login___ContainerPasswort_Passwort_title=0x7f050002;
+    public static final int Login___ContainerPasswort_Passwort_tooltip=0x7f050003;
+    public static final int Login___ContainerPasswort___TooltipPasswort_text=0x7f050004;
+    public static final int Login___ContainerPasswort___TooltipPasswort_title=0x7f050005;
+    public static final int Login___ContainerUserName_UserName_label=0x7f050006;
+    public static final int Login___ContainerUserName_UserName_title=0x7f050007;
+    public static final int Login___ContainerUserName_UserName_tooltip=0x7f050008;
+    public static final int Login___ContainerUserName___TooltipUserName_text=0x7f050009;
+    public static final int Login___ContainerUserName___TooltipUserName_title=0x7f05000a;
+    public static final int Login_beinloggen_text=0x7f05000b;
+    public static final int Login_beinloggen_title=0x7f05000c;
+    public static final int Login_bregistierung_text=0x7f05000d;
+    public static final int Login_bregistierung_title=0x7f05000e;
+    public static final int MainViewActivity=0x7f05000f;
+    public static final int MainView_info_text=0x7f050010;
+    public static final int MainView_info_title=0x7f050011;
+    public static final int RegisterActivity=0x7f050012;
+    public static final int Register___ContainerEmail_Email_label=0x7f050013;
+    public static final int Register___ContainerEmail_Email_title=0x7f050014;
+    public static final int Register___ContainerEmail_Email_tooltip=0x7f050015;
+    public static final int Register___ContainerEmail___TooltipEmail_text=0x7f050016;
+    public static final int Register___ContainerEmail___TooltipEmail_title=0x7f050017;
+    public static final int Register___ContainerPasswort_Passwort_label=0x7f050018;
+    public static final int Register___ContainerPasswort_Passwort_title=0x7f050019;
+    public static final int Register___ContainerPasswort_Passwort_tooltip=0x7f05001a;
+    public static final int Register___ContainerPasswort___TooltipPasswort_text=0x7f05001b;
+    public static final int Register___ContainerPasswort___TooltipPasswort_title=0x7f05001c;
+    public static final int Register___ContainerUserName_UserName_label=0x7f05001d;
+    public static final int Register___ContainerUserName_UserName_title=0x7f05001e;
+    public static final int Register___ContainerUserName_UserName_tooltip=0x7f05001f;
+    public static final int Register___ContainerUserName___TooltipUserName_text=0x7f050020;
+    public static final int Register___ContainerUserName___TooltipUserName_title=0x7f050021;
+    public static final int Register_bregistierung_text=0x7f050022;
+    public static final int Register_bregistierung_title=0x7f050023;
+    public static final int StartActivity=0x7f050024;
+    public static final int _alias=0x7f050025;
+    public static final int app_name=0x7f050026;
+    public static final int ok=0x7f050027;
+    public static final int title_activity_login=0x7f050028;
+    public static final int title_activity_mainView=0x7f050029;
+    public static final int title_activity_register=0x7f05002a;
   }
   public static final class style {
     public static final int AppTheme=0x7f060000;

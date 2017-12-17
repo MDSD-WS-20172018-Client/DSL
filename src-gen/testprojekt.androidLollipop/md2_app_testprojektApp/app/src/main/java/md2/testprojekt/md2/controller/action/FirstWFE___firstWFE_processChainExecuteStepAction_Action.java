@@ -54,11 +54,29 @@ public class FirstWFE___firstWFE_processChainExecuteStepAction_Action extends Ab
 		if((Md2ContentProviderRegistry.getInstance().getContentProvider("__processChainControllerStateProvider").getValue("currentProcessChainStep").equals(new Md2String("firstProcessChain__firstStep")))){
 			Md2CallTask var1 = null;
 			try {
-				var1 = new Md2CallTask(new Md2GoToViewAction(TestprojektApp.getAppContext().getString(R.string.firstViewActivity)));
+				var1 = new Md2CallTask(new Md2GoToViewAction(TestprojektApp.getAppContext().getString(R.string.LoginActivity)));
 				var1.execute();
 			}catch (Md2WidgetNotCreatedException e){
 				Md2TaskQueue.getInstance().addPendingTask(var1);
 			}
 		}
+		else if ((Md2ContentProviderRegistry.getInstance().getContentProvider("__processChainControllerStateProvider").getValue("currentProcessChainStep").equals(new Md2String("SecondProcessChain__firstStep")))){
+			Md2CallTask var2 = null;
+			try {
+				var2 = new Md2CallTask(new Md2GoToViewAction(TestprojektApp.getAppContext().getString(R.string.RegisterActivity)));
+				var2.execute();
+			}catch (Md2WidgetNotCreatedException e){
+				Md2TaskQueue.getInstance().addPendingTask(var2);
+			}
+		}				
+		else if ((Md2ContentProviderRegistry.getInstance().getContentProvider("__processChainControllerStateProvider").getValue("currentProcessChainStep").equals(new Md2String("ProcessChain__firstStep")))){
+			Md2CallTask var3 = null;
+			try {
+				var3 = new Md2CallTask(new Md2GoToViewAction(TestprojektApp.getAppContext().getString(R.string.MainViewActivity)));
+				var3.execute();
+			}catch (Md2WidgetNotCreatedException e){
+				Md2TaskQueue.getInstance().addPendingTask(var3);
+			}
+		}				
 	}
 }

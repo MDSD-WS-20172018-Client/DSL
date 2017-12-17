@@ -31,6 +31,17 @@ WorkflowElement firstWFE {
 	
 	processChain  firstProcessChain {
 		step firstStep:
-			view firstView
+			view Login
+			
+	}
+	processChain  SecondProcessChain {
+		step firstStep:
+			view Register
+			
+	}
+	processChain  ProcessChain {
+		step firstStep:
+			view MainView
+			
 	}
 }

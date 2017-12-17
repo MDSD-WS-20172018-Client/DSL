@@ -1,0 +1,12 @@
+package testprojekt.views
+
+/*
+ * Implement the view here
+ */
+
+
+
+
+FlowLayoutPane MainView {
+	Label info("frioui@th-brandenburg.de ")
+}

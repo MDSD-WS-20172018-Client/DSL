@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Frioui\\Desktop\\Neuer Ordner (2)\\testprojekt\\src-gen\\testprojekt.androidLollipop\\md2_app_testprojektApp\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\Frioui\\Desktop\\MD2\\testprojekt\\src-gen\\testprojekt.androidLollipop\\md2_app_testprojektApp\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Frioui\\.gradle\\caches\\transforms-1\\files-1.1\\md2Library-debug.aar\\0878f24e319ed2a9a92556f3dc63e8a4\\res\\values\\values.xml",
+                    "source": "C:\\Users\\Frioui\\.gradle\\caches\\transforms-1\\files-1.1\\md2Library-debug.aar\\75a872d29dd66afe8f22e41791634051\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
