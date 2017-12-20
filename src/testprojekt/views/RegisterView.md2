@@ -5,15 +5,17 @@ package testprojekt.views
 FlowLayoutPane Register (vertical) {
 
 	TextInput UserName {
-		tooltip "User Name "
+		tooltip "Nutzername"
 	}
-		TextInput Email {
-		tooltip "Email"
+	TextInput Email {
+		tooltip "E-Mail"
 	}
 	TextInput Passwort {
-		tooltip "Passwort "
+		tooltip "Passwort"
 	}
-	
-	Button bregistierung ("Registierung")
+	TextInput PasswortWiederholen {
+		tooltip "Passwort wiederholen"
+	}
+	Button bRegister ("Registieren")
 	
 }
