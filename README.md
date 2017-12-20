@@ -9,7 +9,8 @@ In Eclipse:
 In Android Studio:  
 Probleme mit dem generierten Code können behoben werden, indem man die gradle-Version richtig einstellt.
 Außerdem gibt es bei der Klasse FirstWFE___FirstWFE_startupAction_Action folgende Ersetzung zu machen:  
-FirstWFE___~~F~~**f**irstWFE_startupAction_Action
+FirstWFE___~~F~~**f**irstWFE_startupAction_Action  
+In der Manifestdatei muss der Name der app noch angepasst werden. Vorher muss ggf. *clean Project* ausgeführt werden.
     
 ## Kurzbeschreibung der Aufgabe
 
