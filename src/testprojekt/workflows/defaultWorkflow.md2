@@ -4,15 +4,14 @@ package testprojekt.workflows
  * Implement the workflow here
  */
  
-WorkflowElement firstWFE
+WorkflowElement FirstWFE
 	fires BasicEvent {
 		end workflow
 	}
 
-App testprojektApp {
+App TestprojektApp {
 	WorkflowElements {
-		firstWFE (startable: "Start WFE 1")
+		FirstWFE (startable: "Start WFE 1")
 	}
 	appName "testprojekt1"
 }
-
