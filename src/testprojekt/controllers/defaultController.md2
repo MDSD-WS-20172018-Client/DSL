@@ -26,14 +26,31 @@ WorkflowElement FirstWFE {
 	 * In der Methode werden die Aktionen an die View-Elemente gebunden.
 	 */
 	action CustomAction init {
-		bind action registerBt on Login.bRegister.onClick
+		bind action registerLoginViewBt on Login.bRegister.onClick
 		bind action backBT on Register.bBack.onClick
+		bind action registerRegisterViewBt on Register.bRegister.onClick
+		bind validator NotNullValidator on Register.Passwort
 	}
 	
-	action CustomAction registerBt {
+	/*
+	 * Funktion des Registrieren-Button in der Anmelden-View
+	 */
+	action CustomAction registerLoginViewBt {
 		call SetProcessChain (registerPC)
 	}
 	
+	/*
+	 * Funktion des Registrieren-Buttons in der RegisterView
+	 */
+	action CustomAction registerRegisterViewBt {
+		if (not Register.Passwort equals Register.PasswortWiederholen) {
+			call DisplayMessage ("Die Passwortfelder sind nicht gleich ausgefüllt.")
+		}
+	}
+	
+	/*
+	 * Funktion des Zurück-Button in der RegisterView
+	 */
 	action CustomAction backBT {
 		call SetProcessChain (anmeldenPC)
 	}
