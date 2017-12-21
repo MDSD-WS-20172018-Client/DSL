@@ -14,34 +14,58 @@ remoteConnection WorkflowBackendConnection {
 	uri "http://localhost:8080/testprojekt.backend/service/"
 }
 
-WorkflowElement firstWFE {
-	defaultProcessChain firstProcessChain
+
+WorkflowElement FirstWFE {
+	defaultProcessChain anmeldenPC
 	
 	onInit {
 		init
 	}
 	
+	/*
+	 * In der Methode werden die Aktionen an die View-Elemente gebunden.
+	 */
 	action CustomAction init {
-		
+		bind action registerBt on Login.bRegister.onClick
 	}
+	
+	action CustomAction registerBt {
+		call SetProcessChain (registerPC)
+	}
+	
 	
 	action CustomAction firstAction {
 		call FireEvent (BasicEvent)
 	}
 	
-	processChain  firstProcessChain {
-		step firstStep:
-			view Login
-			
-	}
-	processChain  SecondProcessChain {
+	/*
+	 * Prozess-Kette zum Registrieren:
+	 * 1. View Register öffnen
+	 * 2. Werte kontrollieren (Passwort & Passwort-Wiederholung gleich?, alle Feler gültig ausgefüllt?)
+	 * 3. Request starten
+	 * 4. Nachricht über Erfolg oder Misserfolg
+	 * 5. View wechseln
+	 * 
+	 */
+	processChain  registerPC {
 		step firstStep:
 			view Register
-			
 	}
-	processChain  ProcessChain {
+	
+	/*
+	 * Prozess-Kette zum Anmelden:
+	 * 1. Login-View zeigen
+	 * 2. Prüfung der Felder (Eingabe leer?)
+	 * 3. Anfrage an REST-Service
+	 * 4. View wechseln, wenn gültige Eingabe
+	 */
+	processChain  anmeldenPC {
 		step firstStep:
+			view Login
+			proceed {
+				on Login.bEinloggen.onClick
+			}
+		step secondStep:
 			view MainView
-			
 	}
 }

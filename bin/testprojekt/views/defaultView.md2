@@ -7,13 +7,13 @@ package testprojekt.views
 FlowLayoutPane Login (vertical) {
 
 	TextInput UserName {
-		tooltip "User Name oder Email"
+		tooltip "Nutzername"
 	}
 	TextInput Passwort {
-		tooltip "Passwort "
+		tooltip "Passwort"
 	}
-	Button beinloggen ("Einloggen")
-	Button bregistierung ("Konto erstellen")
+	Button bEinloggen ("Einloggen")
+	Button bRegister ("Konto erstellen")
 	
 }
 
