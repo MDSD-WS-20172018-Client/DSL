@@ -4,9 +4,25 @@ package testprojekt.views
  * Implement the view here
  */
 
+/* Leider funktionieren TabbedPanes nicht :(
 
+TabbedPane MainView {
+	Register
+	DateiuploadTab
+}
 
+FlowLayoutPane DateidownloadTab {
+	
+}
 
-FlowLayoutPane MainView {
-	Label info("frioui@th-brandenburg.de ")
+FlowLayoutPane DateiuploadTab {
+	Button info2("Upload")
+}
+
+*/
+
+// Erstmal nur damit etwas zu sehen ist
+FlowLayoutPane DateiDownload(vertical){
+	Label downlaodLabel("Download")
+	Button logoutButton("Logout")
 }

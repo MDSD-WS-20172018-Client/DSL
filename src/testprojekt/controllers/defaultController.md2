@@ -66,6 +66,6 @@ WorkflowElement FirstWFE {
 				on Login.bEinloggen.onClick
 			}
 		step secondStep:
-			view MainView
+			view DateiDownload
 	}
 }
