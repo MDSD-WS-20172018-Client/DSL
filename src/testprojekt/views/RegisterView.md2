@@ -7,9 +7,6 @@ FlowLayoutPane Register (vertical) {
 	TextInput UserName {
 		tooltip "Nutzername"
 	}
-	TextInput Email {
-		tooltip "E-Mail"
-	}
 	TextInput Passwort {
 		tooltip "Passwort"
 	}
@@ -17,5 +14,6 @@ FlowLayoutPane Register (vertical) {
 		tooltip "Passwort wiederholen"
 	}
 	Button bRegister ("Registieren")
+	Button bBack ("Zurück")
 	
 }

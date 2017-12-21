@@ -27,12 +27,16 @@ WorkflowElement FirstWFE {
 	 */
 	action CustomAction init {
 		bind action registerBt on Login.bRegister.onClick
+		bind action backBT on Register.bBack.onClick
 	}
 	
 	action CustomAction registerBt {
 		call SetProcessChain (registerPC)
 	}
 	
+	action CustomAction backBT {
+		call SetProcessChain (anmeldenPC)
+	}
 	
 	action CustomAction firstAction {
 		call FireEvent (BasicEvent)
