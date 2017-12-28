@@ -29,7 +29,6 @@ WorkflowElement FirstWFE {
 		bind action registerLoginViewBt on Login.bRegister.onClick
 		bind action backBT on Register.bBack.onClick
 		bind action registerRegisterViewBt on Register.bRegister.onClick
-		bind validator NotNullValidator on Register.Passwort
 	}
 	
 	/*
@@ -44,7 +43,15 @@ WorkflowElement FirstWFE {
 	 */
 	action CustomAction registerRegisterViewBt {
 		if (not Register.Passwort equals Register.PasswortWiederholen) {
+			/* In diesem Fall sind die Felder Passwort und Passwort wiederholen nicht gleich. */
 			call DisplayMessage ("Die Passwortfelder sind nicht gleich ausgefüllt.")
+		} else {
+			if (Register.Passwort equals "" or Register.UserName equals ""){
+				/* In diesem Fall sind beide Felder gleich ausgefüllt (leer) oder der Nutzername ist leer, das ist auch nicht zulässig. */
+				call DisplayMessage ("Das Nutzername und Passwort dürfen nicht leer sein.")
+			} else {
+				/* Hier kommt hin, was bei einer gültigen Eingabe passiert. */
+			}
 		}
 	}
 	
