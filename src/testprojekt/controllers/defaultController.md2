@@ -29,6 +29,8 @@ WorkflowElement FirstWFE {
 		bind action registerLoginViewBt on Login.bRegister.onClick
 		bind action backBT on Register.bBack.onClick
 		bind action registerRegisterViewBt on Register.bRegister.onClick
+		bind action switchToDownload on DateiUpload.switchView.onClick
+		bind action switchToUpload on DateiDownload.switchView.onClick
 	}
 	
 	/*
@@ -36,6 +38,20 @@ WorkflowElement FirstWFE {
 	 */
 	action CustomAction registerLoginViewBt {
 		call SetProcessChain (registerPC)
+	}
+	
+	/*
+	 * Funktion des switchView-Button in der Download-View
+	 */
+	action CustomAction switchToUpload {
+		call GotoView(DateiUpload)
+	}
+	
+	/*
+	 * Funktion des switchView-Button in der Download-View
+	 */
+	action CustomAction switchToDownload {
+		call GotoView(DateiDownload)
 	}
 	
 	/*
@@ -69,7 +85,7 @@ WorkflowElement FirstWFE {
 	/*
 	 * Prozess-Kette zum Registrieren:
 	 * 1. View Register öffnen
-	 * 2. Werte kontrollieren (Passwort & Passwort-Wiederholung gleich?, alle Feler gültig ausgefüllt?)
+	 * 2. Werte kontrollieren (Passwort & Passwort-Wiederholung gleich?, alle Felder gültig ausgefüllt?)
 	 * 3. Request starten
 	 * 4. Nachricht über Erfolg oder Misserfolg
 	 * 5. View wechseln
