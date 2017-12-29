@@ -11,7 +11,7 @@ WorkflowElement FirstWFE
 
 App TestprojektApp {
 	WorkflowElements {
-		FirstWFE (startable: "Start WFE 1")
+		FirstWFE (startable: "Dateitransfer")
 	}
 	appName "testprojekt1"
 }

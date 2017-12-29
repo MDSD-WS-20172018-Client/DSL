@@ -31,6 +31,9 @@ WorkflowElement FirstWFE {
 		bind action registerRegisterViewBt on Register.bRegister.onClick
 		bind action switchToDownload on DateiUpload.switchView.onClick
 		bind action switchToUpload on DateiDownload.switchView.onClick
+		bind action backBT on DateiDownload.logoutButton.onClick //ggf. noch ändern
+		bind action backBT on DateiUpload.logoutButton.onClick //ggf. noch ändern
+		bind validator StringRangeValidator ( minLength 8 ) on Register.Passwort
 	}
 	
 	/*
@@ -66,7 +69,7 @@ WorkflowElement FirstWFE {
 				/* In diesem Fall sind beide Felder gleich ausgefüllt (leer) oder der Nutzername ist leer, das ist auch nicht zulässig. */
 				call DisplayMessage ("Das Nutzername und Passwort dürfen nicht leer sein.")
 			} else {
-				/* Hier kommt hin, was bei einer gültigen Eingabe passiert. */
+				// Hier kommt hin, was bei einem gültign Wert passiert
 			}
 		}
 	}

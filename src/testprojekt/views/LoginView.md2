@@ -11,6 +11,7 @@ FlowLayoutPane Login (vertical) {
 	}
 	TextInput Passwort {
 		tooltip "Passwort"
+		type password
 	}
 	Button bEinloggen ("Einloggen")
 	Button bRegister ("Konto erstellen")

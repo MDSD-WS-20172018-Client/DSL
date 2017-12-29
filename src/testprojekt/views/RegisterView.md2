@@ -9,9 +9,11 @@ FlowLayoutPane Register (vertical) {
 	}
 	TextInput Passwort {
 		tooltip "Passwort"
+		type password
 	}
 	TextInput PasswortWiederholen {
 		tooltip "Passwort wiederholen"
+		type password
 	}
 	Button bRegister ("Registieren")
 	Button bBack ("Zurück")
