@@ -3,3 +3,7 @@ package testprojekt.models
 /*
  * Implement the model here
  */
+ entity Nutzer{
+ 	nutzername: string
+ 	passwort: string
+ }
