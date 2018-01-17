@@ -24,6 +24,8 @@ FlowLayoutPane DateiuploadTab {
 // Die alternative zur Tabbed-Pane 2 eigene FlowLayoutPanes, die aufeinander referenzieren
 FlowLayoutPane DateiDownload(vertical){
 	Label downlaodLabel("Download")
+	Label dateienLabel("Dateien")
+	Label ordnerLabel("Ordner")
 	Button switchView("Upload")
 	Button logoutButton("Logout")
 }
