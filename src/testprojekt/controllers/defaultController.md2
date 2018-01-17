@@ -19,7 +19,7 @@ WorkflowElement FirstWFE {
 	defaultProcessChain anmeldenPC
 	
 	onInit {
-		init
+		init 
 	}
 	
 	/*
@@ -31,8 +31,8 @@ WorkflowElement FirstWFE {
 		bind action registerRegisterViewBt on Register.bRegister.onClick
 		bind action switchToDownload on DateiUpload.switchView.onClick
 		bind action switchToUpload on DateiDownload.switchView.onClick
-		bind action backBT on DateiDownload.logoutButton.onClick //ggf. noch ändern
-		bind action backBT on DateiUpload.logoutButton.onClick //ggf. noch ändern
+		bind action logoutBT on DateiDownload.logoutButton.onClick
+		bind action logoutBT on DateiUpload.logoutButton.onClick
 		bind validator StringRangeValidator ( minLength 8 ) on Register.Passwort
 	}
 	
@@ -78,6 +78,13 @@ WorkflowElement FirstWFE {
 	 * Funktion des Zurück-Button in der RegisterView
 	 */
 	action CustomAction backBT {
+		call SetProcessChain (anmeldenPC)
+	}
+	
+	/*
+	 * Funktion des Zurück-Button in der RegisterView
+	 */
+	action CustomAction logoutBT {
 		call SetProcessChain (anmeldenPC)
 	}
 	
